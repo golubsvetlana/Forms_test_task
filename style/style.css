@@ -1,0 +1,64 @@
+.contact-form {
+  width: 300px;
+  border: solid 2px #5a106d;
+  /* background-color: #5a106d; */
+  padding: 40px 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-sbmt {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: stretch;
+}
+.form-sbmt_title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #5a106d;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.form-sbmt_item.msg {
+  height: 50px;
+  resize: none;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: solid 2px #5a106d;
+}
+
+.form-sbmt_item {
+  margin: 15px 0;
+  font-family: "Montserrat", serif;
+  font-weight: 200;
+  font-style: normal;
+  border: none;
+}
+
+.form-sbmt_item.text {
+  border-bottom: solid 2px #5a106d;
+  height: 30px;
+}
+.form-sbmt_item.btn {
+  width: fit-content;
+  padding: 20px;
+  background-color: #5a106d;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 15px auto;
+}
+.form-sbmt_item.btn:hover {
+  background-color: #3b0c47;
+}
+#name:focus,
+#name:focus-visible,
+#email:focus,
+#email:focus-visible,
+#message:focus,
+#message:focus-visible {
+  outline: none;
+  box-shadow: 3px 5px 3px 0 rgba(0, 0, 0, 0.2);
+}

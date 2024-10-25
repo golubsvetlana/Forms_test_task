@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/style/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <!---->
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="contact-form">
+      <!-- <form action="mailto:apply@icona.ca" class="form-sbmt" method="POST"> -->
+      <form
+        action="mailto:mailto:apply@icona.ca"
+        class="form-sbmt"
+        method="POST">
+        <h2 class="form-sbmt_title">Contact Us</h2>
+        <input
+          class="form-sbmt_item text"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required />
+
+        <input
+          class="form-sbmt_item text"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required />
+
+        <textarea
+          class="form-sbmt_item msg"
+          name="msg"
+          id="message"
+          placeholder="Enter your message"
+          required></textarea>
+
+        <input class="form-sbmt_item btn" type="submit" value="Contact Us" />
+      </form>
+      <script src="/script/script.js"></script>
+    </div>
+  </body>
+</html>
